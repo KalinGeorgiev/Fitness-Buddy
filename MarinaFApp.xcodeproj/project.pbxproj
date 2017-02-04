@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7AA2591E453E0C008F373C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7AA2571E453E0C008F373C /* AVFoundation.framework */; };
+		3F7AA25A1E453E0C008F373C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7AA2581E453E0C008F373C /* AVKit.framework */; };
+		3F7AA25C1E453F22008F373C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7AA25B1E453F22008F373C /* FourthViewController.swift */; };
+		3F7AA25E1E45405E008F373C /* video-1486160864.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7AA25D1E45405E008F373C /* video-1486160864.mp4 */; };
+		3F7AA2601E454065008F373C /* video-1486160869.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7AA25F1E454065008F373C /* video-1486160869.mp4 */; };
+		3F7AA2621E45406C008F373C /* video-1486160925.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7AA2611E45406C008F373C /* video-1486160925.mp4 */; };
+		3F7AA2641E454075008F373C /* video-1486160938.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7AA2631E454075008F373C /* video-1486160938.mp4 */; };
+		3F7AA2661E45407C008F373C /* video-1486160942.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7AA2651E45407C008F373C /* video-1486160942.mp4 */; };
+		3FA8CB191E43AEFD0053CED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8CB181E43AEFD0053CED4 /* AppDelegate.swift */; };
+		3FA8CB1B1E43AEFD0053CED4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8CB1A1E43AEFD0053CED4 /* FirstViewController.swift */; };
+		3FA8CB1D1E43AEFD0053CED4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8CB1C1E43AEFD0053CED4 /* SecondViewController.swift */; };
+		3FA8CB201E43AEFD0053CED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8CB1E1E43AEFD0053CED4 /* Main.storyboard */; };
+		3FA8CB221E43AEFD0053CED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8CB211E43AEFD0053CED4 /* Assets.xcassets */; };
+		3FA8CB251E43AEFD0053CED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8CB231E43AEFD0053CED4 /* LaunchScreen.storyboard */; };
+		3FA8CB301E43AEFE0053CED4 /* MarinaFAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8CB2F1E43AEFE0053CED4 /* MarinaFAppTests.swift */; };
+		3FA8CB3B1E43AEFE0053CED4 /* MarinaFAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8CB3A1E43AEFE0053CED4 /* MarinaFAppUITests.swift */; };
+		3FAA3FAA1E44D5EB00301F6B /* BMRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA3FA91E44D5EB00301F6B /* BMRView.swift */; };
+		3FAA3FAC1E44F21D00301F6B /* TransitionNutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA3FAB1E44F21D00301F6B /* TransitionNutrition.swift */; };
+		3FAA3FB31E45AC1F00301F6B /* TransitionTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA3FB21E45AC1F00301F6B /* TransitionTraining.swift */; };
+		3FFE0F231E44857900AC29F9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F221E44857900AC29F9 /* ThirdViewController.swift */; };
+		3FFE0F251E44A67000AC29F9 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F241E44A67000AC29F9 /* LocationSearchTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA8CB2C1E43AEFE0053CED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8CB0D1E43AEFD0053CED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA8CB141E43AEFD0053CED4;
+			remoteInfo = MarinaFApp;
+		};
+		3FA8CB371E43AEFE0053CED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8CB0D1E43AEFD0053CED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA8CB141E43AEFD0053CED4;
+			remoteInfo = MarinaFApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F7AA2571E453E0C008F373C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F7AA2581E453E0C008F373C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3F7AA25B1E453F22008F373C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		3F7AA25D1E45405E008F373C /* video-1486160864.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1486160864.mp4"; sourceTree = "<group>"; };
+		3F7AA25F1E454065008F373C /* video-1486160869.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1486160869.mp4"; sourceTree = "<group>"; };
+		3F7AA2611E45406C008F373C /* video-1486160925.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1486160925.mp4"; sourceTree = "<group>"; };
+		3F7AA2631E454075008F373C /* video-1486160938.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1486160938.mp4"; sourceTree = "<group>"; };
+		3F7AA2651E45407C008F373C /* video-1486160942.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1486160942.mp4"; sourceTree = "<group>"; };
+		3FA8CB151E43AEFD0053CED4 /* MarinaFApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarinaFApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8CB181E43AEFD0053CED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA8CB1A1E43AEFD0053CED4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3FA8CB1C1E43AEFD0053CED4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FA8CB1F1E43AEFD0053CED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA8CB211E43AEFD0053CED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA8CB241E43AEFD0053CED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA8CB261E43AEFD0053CED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA8CB2B1E43AEFE0053CED4 /* MarinaFAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarinaFAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8CB2F1E43AEFE0053CED4 /* MarinaFAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarinaFAppTests.swift; sourceTree = "<group>"; };
+		3FA8CB311E43AEFE0053CED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA8CB361E43AEFE0053CED4 /* MarinaFAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarinaFAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8CB3A1E43AEFE0053CED4 /* MarinaFAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarinaFAppUITests.swift; sourceTree = "<group>"; };
+		3FA8CB3C1E43AEFE0053CED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAA3FA91E44D5EB00301F6B /* BMRView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMRView.swift; sourceTree = "<group>"; };
+		3FAA3FAB1E44F21D00301F6B /* TransitionNutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNutrition.swift; sourceTree = "<group>"; };
+		3FAA3FB21E45AC1F00301F6B /* TransitionTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionTraining.swift; sourceTree = "<group>"; };
+		3FFE0F221E44857900AC29F9 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3FFE0F241E44A67000AC29F9 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA8CB121E43AEFD0053CED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7AA2591E453E0C008F373C /* AVFoundation.framework in Frameworks */,
+				3F7AA25A1E453E0C008F373C /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB281E43AEFE0053CED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB331E43AEFE0053CED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7AA2561E453E0C008F373C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7AA2571E453E0C008F373C /* AVFoundation.framework */,
+				3F7AA2581E453E0C008F373C /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FA8CB0C1E43AEFD0053CED4 = {
+			isa = PBXGroup;
+			children = (
+				3FA8CB171E43AEFD0053CED4 /* MarinaFApp */,
+				3FA8CB2E1E43AEFE0053CED4 /* MarinaFAppTests */,
+				3FA8CB391E43AEFE0053CED4 /* MarinaFAppUITests */,
+				3FA8CB161E43AEFD0053CED4 /* Products */,
+				3F7AA2561E453E0C008F373C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA8CB161E43AEFD0053CED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8CB151E43AEFD0053CED4 /* MarinaFApp.app */,
+				3FA8CB2B1E43AEFE0053CED4 /* MarinaFAppTests.xctest */,
+				3FA8CB361E43AEFE0053CED4 /* MarinaFAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA8CB171E43AEFD0053CED4 /* MarinaFApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8CB181E43AEFD0053CED4 /* AppDelegate.swift */,
+				3FA8CB1A1E43AEFD0053CED4 /* FirstViewController.swift */,
+				3FA8CB1C1E43AEFD0053CED4 /* SecondViewController.swift */,
+				3FFE0F221E44857900AC29F9 /* ThirdViewController.swift */,
+				3FFE0F241E44A67000AC29F9 /* LocationSearchTable.swift */,
+				3FA8CB1E1E43AEFD0053CED4 /* Main.storyboard */,
+				3F7AA25B1E453F22008F373C /* FourthViewController.swift */,
+				3FA8CB211E43AEFD0053CED4 /* Assets.xcassets */,
+				3FA8CB231E43AEFD0053CED4 /* LaunchScreen.storyboard */,
+				3FA8CB261E43AEFD0053CED4 /* Info.plist */,
+				3FAA3FA91E44D5EB00301F6B /* BMRView.swift */,
+				3FAA3FAB1E44F21D00301F6B /* TransitionNutrition.swift */,
+				3F7AA25D1E45405E008F373C /* video-1486160864.mp4 */,
+				3F7AA25F1E454065008F373C /* video-1486160869.mp4 */,
+				3F7AA2611E45406C008F373C /* video-1486160925.mp4 */,
+				3F7AA2631E454075008F373C /* video-1486160938.mp4 */,
+				3F7AA2651E45407C008F373C /* video-1486160942.mp4 */,
+				3FAA3FB21E45AC1F00301F6B /* TransitionTraining.swift */,
+			);
+			path = MarinaFApp;
+			sourceTree = "<group>";
+		};
+		3FA8CB2E1E43AEFE0053CED4 /* MarinaFAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8CB2F1E43AEFE0053CED4 /* MarinaFAppTests.swift */,
+				3FA8CB311E43AEFE0053CED4 /* Info.plist */,
+			);
+			path = MarinaFAppTests;
+			sourceTree = "<group>";
+		};
+		3FA8CB391E43AEFE0053CED4 /* MarinaFAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8CB3A1E43AEFE0053CED4 /* MarinaFAppUITests.swift */,
+				3FA8CB3C1E43AEFE0053CED4 /* Info.plist */,
+			);
+			path = MarinaFAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA8CB141E43AEFD0053CED4 /* MarinaFApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8CB3F1E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFApp" */;
+			buildPhases = (
+				3FA8CB111E43AEFD0053CED4 /* Sources */,
+				3FA8CB121E43AEFD0053CED4 /* Frameworks */,
+				3FA8CB131E43AEFD0053CED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarinaFApp;
+			productName = MarinaFApp;
+			productReference = 3FA8CB151E43AEFD0053CED4 /* MarinaFApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA8CB2A1E43AEFE0053CED4 /* MarinaFAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8CB421E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFAppTests" */;
+			buildPhases = (
+				3FA8CB271E43AEFE0053CED4 /* Sources */,
+				3FA8CB281E43AEFE0053CED4 /* Frameworks */,
+				3FA8CB291E43AEFE0053CED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA8CB2D1E43AEFE0053CED4 /* PBXTargetDependency */,
+			);
+			name = MarinaFAppTests;
+			productName = MarinaFAppTests;
+			productReference = 3FA8CB2B1E43AEFE0053CED4 /* MarinaFAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA8CB351E43AEFE0053CED4 /* MarinaFAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8CB451E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFAppUITests" */;
+			buildPhases = (
+				3FA8CB321E43AEFE0053CED4 /* Sources */,
+				3FA8CB331E43AEFE0053CED4 /* Frameworks */,
+				3FA8CB341E43AEFE0053CED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA8CB381E43AEFE0053CED4 /* PBXTargetDependency */,
+			);
+			name = MarinaFAppUITests;
+			productName = MarinaFAppUITests;
+			productReference = 3FA8CB361E43AEFE0053CED4 /* MarinaFAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA8CB0D1E43AEFD0053CED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FA8CB141E43AEFD0053CED4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					3FA8CB2A1E43AEFE0053CED4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA8CB141E43AEFD0053CED4;
+					};
+					3FA8CB351E43AEFE0053CED4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA8CB141E43AEFD0053CED4;
+					};
+				};
+			};
+			buildConfigurationList = 3FA8CB101E43AEFD0053CED4 /* Build configuration list for PBXProject "MarinaFApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA8CB0C1E43AEFD0053CED4;
+			productRefGroup = 3FA8CB161E43AEFD0053CED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA8CB141E43AEFD0053CED4 /* MarinaFApp */,
+				3FA8CB2A1E43AEFE0053CED4 /* MarinaFAppTests */,
+				3FA8CB351E43AEFE0053CED4 /* MarinaFAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA8CB131E43AEFD0053CED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7AA2661E45407C008F373C /* video-1486160942.mp4 in Resources */,
+				3FA8CB251E43AEFD0053CED4 /* LaunchScreen.storyboard in Resources */,
+				3F7AA2601E454065008F373C /* video-1486160869.mp4 in Resources */,
+				3FA8CB221E43AEFD0053CED4 /* Assets.xcassets in Resources */,
+				3F7AA2621E45406C008F373C /* video-1486160925.mp4 in Resources */,
+				3FA8CB201E43AEFD0053CED4 /* Main.storyboard in Resources */,
+				3F7AA2641E454075008F373C /* video-1486160938.mp4 in Resources */,
+				3F7AA25E1E45405E008F373C /* video-1486160864.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB291E43AEFE0053CED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB341E43AEFE0053CED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA8CB111E43AEFD0053CED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8CB1D1E43AEFD0053CED4 /* SecondViewController.swift in Sources */,
+				3FFE0F251E44A67000AC29F9 /* LocationSearchTable.swift in Sources */,
+				3FA8CB191E43AEFD0053CED4 /* AppDelegate.swift in Sources */,
+				3FFE0F231E44857900AC29F9 /* ThirdViewController.swift in Sources */,
+				3F7AA25C1E453F22008F373C /* FourthViewController.swift in Sources */,
+				3FAA3FAA1E44D5EB00301F6B /* BMRView.swift in Sources */,
+				3FA8CB1B1E43AEFD0053CED4 /* FirstViewController.swift in Sources */,
+				3FAA3FB31E45AC1F00301F6B /* TransitionTraining.swift in Sources */,
+				3FAA3FAC1E44F21D00301F6B /* TransitionNutrition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB271E43AEFE0053CED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8CB301E43AEFE0053CED4 /* MarinaFAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8CB321E43AEFE0053CED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8CB3B1E43AEFE0053CED4 /* MarinaFAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA8CB2D1E43AEFE0053CED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA8CB141E43AEFD0053CED4 /* MarinaFApp */;
+			targetProxy = 3FA8CB2C1E43AEFE0053CED4 /* PBXContainerItemProxy */;
+		};
+		3FA8CB381E43AEFE0053CED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA8CB141E43AEFD0053CED4 /* MarinaFApp */;
+			targetProxy = 3FA8CB371E43AEFE0053CED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA8CB1E1E43AEFD0053CED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8CB1F1E43AEFD0053CED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA8CB231E43AEFD0053CED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8CB241E43AEFD0053CED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA8CB3D1E43AEFE0053CED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA8CB3E1E43AEFE0053CED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA8CB401E43AEFE0053CED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarinaFApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FA8CB411E43AEFE0053CED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarinaFApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FA8CB431E43AEFE0053CED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarinaFAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarinaFApp.app/MarinaFApp";
+			};
+			name = Debug;
+		};
+		3FA8CB441E43AEFE0053CED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarinaFAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarinaFApp.app/MarinaFApp";
+			};
+			name = Release;
+		};
+		3FA8CB461E43AEFE0053CED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MarinaFAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MarinaFApp;
+			};
+			name = Debug;
+		};
+		3FA8CB471E43AEFE0053CED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MarinaFAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = m.MarinaFAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MarinaFApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA8CB101E43AEFD0053CED4 /* Build configuration list for PBXProject "MarinaFApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8CB3D1E43AEFE0053CED4 /* Debug */,
+				3FA8CB3E1E43AEFE0053CED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8CB3F1E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8CB401E43AEFE0053CED4 /* Debug */,
+				3FA8CB411E43AEFE0053CED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8CB421E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8CB431E43AEFE0053CED4 /* Debug */,
+				3FA8CB441E43AEFE0053CED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8CB451E43AEFE0053CED4 /* Build configuration list for PBXNativeTarget "MarinaFAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8CB461E43AEFE0053CED4 /* Debug */,
+				3FA8CB471E43AEFE0053CED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA8CB0D1E43AEFD0053CED4 /* Project object */;
+}
